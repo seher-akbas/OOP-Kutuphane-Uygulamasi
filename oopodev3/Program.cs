@@ -3,30 +3,8 @@
     private static void Main(string[] args)
     {
 
-        //int[] int_array = new[] { 1, 2, 3, 4 };
-        //int[] int_array2 = new int [4];
-        //arraylerde elaman sildigimizde null olarak atanır legth degismez
-
-        //List <int> int_list = new List <int> (); // kurucu fonksiyon cağırır gibi listeyi cağırıyoruz
-        //int_list.Add (11);
-        //int_list.Add(12); // listeye ekleme yaptık 
-        //int_list.Add(13);
-        //int_list.Add(14);
-        //int_list[2] =23; // indeksi değiştirmek için
-        //int_list.Remove (13); // degeri silmek için
-        //int_list.RemoveAt(2); //indeksi silmek için
-        //length değişir 1 azalır
-
         Kitap kitap = new Kitap("hobbit","JRR Tolkien","123456",500);
         
-
-
-
-
-
-
-
-
     }
 }
 class Kitap
@@ -61,10 +39,10 @@ class KitapKutuphanesi
 
     void kitapekle(Kitap kitapeklenecekolan)
     {
-       // kitaplar.Add(kitapeklenecekolan);
+      
        if(kitaplar.Count < max_kitap_kapasitesi)
         {
-
+            kitaplar.Add(kitapeklenecekolan);
         }
     }
     void kitapsil(string silinecekISBN)
