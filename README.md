@@ -34,7 +34,7 @@ Bu proje, C# kullanarak basit bir kitap kütüphanesi sistemini simüle etmeyi a
 
 ## Kurulum
 
-Projenizi çalıştırmak için .NET Core veya .NET Framework yüklü olduğundan emin olun. Daha sonra proje dosyasını [GitHub repository linki] adresinden klonlayabilir veya indirebilirsiniz.
+Projenizi çalıştırmak için .NET Core veya .NET Framework yüklü olduğundan emin olun. Daha sonra proje dosyasını [https://github.com/seher-akbas/OOP-Kutuphane-Uygulamasi.git] adresinden klonlayabilir veya indirebilirsiniz.
 
 ### Gereksinimler
 
